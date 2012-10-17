@@ -31,7 +31,11 @@ thirdpoint.y = Double.parseDouble(str);
 println "your coordinates are 1(" + firstpoint.x + "," + firstpoint.y + "), 2(" + secpoint.x + "," +secpoint.y + "), 3(" + thirdpoint.x + "," + thirdpoint.y + ")";
 
 double distance(double x1, double y1, double x2, double y2) {
-	double result = ((x1-x2)*(x1-x2))+((y1-y2)*(y1-y2))
-
+	double result1 = ((x1-x2)*(x1-x2))+((y1-y2)*(y1-y2))/((x1-x2)*(x1-x2))+((y1-y2)*(y1-y2));
+	return result1;
+	
+}	
+	
+	print result1; 
 
 
