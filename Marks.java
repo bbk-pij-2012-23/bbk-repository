@@ -36,10 +36,17 @@ public class Marks {
 	public static void main(String[] args) {
 		System.out.println ("key each mark then hit enter. When you have finished key in -1");
 		Marks myCalc = new Marks();
+<<<<<<< HEAD
 		myCalc.calc();
 		
 	
 	}	
 
+=======
+		myCalc.calc();	
+	
+	}	
+		
+>>>>>>> testing
 }	
 	

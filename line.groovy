@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // 3 Line to column
 // Write a program that reads some text from the user and then writes the same text on screen, but each  
 // letter on a different line. Use while loops and for loops. What version looks clearer?
@@ -24,6 +25,9 @@ while (i < lastchar) {
 	i++;
 }	
 //I can't see much difference in clarity of while loops and for loops
+=======
+
+>>>>>>> testing
 
 print "OK, this is the last time, please enter some text: "
 str = System.console()readLine();
