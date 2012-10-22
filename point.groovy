@@ -5,6 +5,7 @@ String str = System.console().readLine();
 class Point {
 	double x;
 	double y;
+
 }
 Point firstpoint = new Point();
 firstpoint.x = Double.parseDouble(str);
