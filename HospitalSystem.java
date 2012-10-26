@@ -13,6 +13,7 @@
 				}
 				pos.nextPatient = newPatient; //this is where the link to next patient is
 				newPatient.prevPatient = pos; //this is the link to the previous patient
+			
 			}
 			
 		}	
@@ -78,7 +79,6 @@
 			boolean stop = false;
 			HospitalSystem hospitalSystem = new HospitalSystem();
 			hospitalSystem.launch();
-			
 			hospitalSystem.peep();
 			hospitalSystem.deleterlaunch();
 			hospitalSystem.peep();
