@@ -14,12 +14,12 @@ public class MobilePhone extends OldPhone {
 	/** dummy methods that can be called
 	*/
 	
-	public void ringAlarm() {
-		System.out.println("It's time to get up!");
+	public void ringAlarm(String wakeTime) {
+		System.out.println("I'll wake you at " + wakeTime);
 	}
 	
-	public void playGame() {
-		System.out.println("You are playing a game, its called guess");
+	public void playGame(String gameName) {
+		System.out.println("You are playing a game, its called " + gameName);
 	}
 	
 	
@@ -61,8 +61,12 @@ public class MobilePhone extends OldPhone {
 		mp.call("1234565");
 		mp.call("345123");
 		mp.printLastNumbers();
-		
-	
+		System.out.println("what time do you want to get up?");
+		String time = System.console().readLine();
+		mp.ringAlarm(time);
+		System.out.println("what game do you want to play?");
+		String game = System.console().readLine();
+		mp.playGame(game);
 		
 	}	
 			

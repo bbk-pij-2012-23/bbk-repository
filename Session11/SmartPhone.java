@@ -16,4 +16,15 @@ findPosition(), the latter returning a (fictitious) GPS-found position.
 		return position;
 	}
 	
+	@Override
+	public void call(String numberToCall) { //hint says use super but I didn't. how could it be done using that?
+		System.out.println(numberToCall.substring(0,2));
+		if (numberToCall.substring(0,2).equals("00")){
+			System.out.println("Calling " + numberToCall + " through the internet to save money");
+		}
+		else {
+			System.out.println("Calling..." + numberToCall);
+		}
+	}
+	
 }
