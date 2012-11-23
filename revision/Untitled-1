@@ -1,0 +1,14 @@
+public class usefulMethods {
+
+	public void deleteWhiteSpace(String str) {
+		int i = 0;
+		for (i, i<str.length(),i++) {
+			if (str.charAt(i) == " ") {
+				str.charAt(i) = "";
+			}
+		}	
+		
+	
+	}
+
+}

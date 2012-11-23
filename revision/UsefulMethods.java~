@@ -1,0 +1,36 @@
+public class UsefulMethods {
+
+	public void deleteWhiteSpace(String str) {
+		int i = 0;
+		while (i<str.length()) {
+			if (str.charAt(i) == " ") {
+				str.charAt(i) = "";
+			}
+			i++;
+		}	
+	}
+/** uses ASCII table to look up character to check whether @str is number
+*/
+	public boolean findNum1(String str) {
+		if (str.charAt(0) > (char)47 && str.charAt(0) < (char)58) {
+			return true;
+		}
+		return false;
+	}
+
+	
+	public void assignChar(String str){
+		if (str.charAt(0) == "-" && (str.charAt(1) > (char)47 && str.charAt(1) < (char)58) || (str.charAt(0) > (char)47 && str.charAt(0) < (char)58)){
+			
+			int start = 0;
+			int i = 0;
+			while(str.charAt(i) > (char)47 && str.charAt(i) < (char)58) {
+				i++;	
+			}
+			int end = i;
+			int num1 = Integer.parseInt(str.substring(start,end));
+		}	
+			
+	}		
+	
+}

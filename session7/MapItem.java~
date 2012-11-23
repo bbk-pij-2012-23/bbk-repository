@@ -1,0 +1,14 @@
+public class MapItem<T> {
+	T itemValue;
+	T itemKey;
+	MapItem next;
+	MapItem prev;
+	
+	public MapItem<T>(T itemValue1, T itemKey1){
+		this.itemValue = itemValue1
+	}
+
+	public MapItem<T>(){
+	}
+	
+	

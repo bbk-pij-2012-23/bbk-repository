@@ -1,0 +1,22 @@
+/** make a tree
+* start by making a tree interface, then write tests class with comments outlining 
+* what the tests need to do. Learning how to do tests properly is something to do later
+*/
+
+
+public interface Tree {
+
+/** constructors go in TreeImpl
+* need a method to add elements, remove elements, find elements
+* First make integer type then generic
+*/
+
+	
+
+	void addNode();
+	
+	void removeNode();
+	
+	void findElement();
+	
+}	

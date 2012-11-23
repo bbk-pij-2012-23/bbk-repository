@@ -1,0 +1,13 @@
+public interface Map<T> {
+
+/** add an item into the list, specifying its @itemKey (location in the list),
+* as well as its contents @itemValue
+* uses generic types
+*/
+	void put(T itemValue, T itemKey);
+	
+	void get(T itemKey);
+	
+	isEmpty();
+	
+}
