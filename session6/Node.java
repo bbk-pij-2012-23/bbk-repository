@@ -1,9 +1,9 @@
-public class Node{
-	String name;
-	Node prev;
-	Node next;
+public class Node<T>{
+	T name;
+	Node<T> prev;
+	Node<T> next;
 	
-	public Node(String name){
+	public Node(T name){
 		this.name = name;
 	}
 }
